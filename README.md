@@ -4,6 +4,7 @@ Installation:
 The easiest way to install is to use pathogen. After installing pathogen clone this repo into your .vim/bundle folder.
 Then you need to add the following line in your .bashrc,
 alias vim='vim -w ~/.vimlog "$@"'
+
 This is needed for VimHUD to record you keystrokes while you are in vim. This may change in the future if we find
 a better way of doing this.
 
